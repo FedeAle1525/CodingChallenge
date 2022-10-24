@@ -1,0 +1,72 @@
+/* Codice icona freccia CSS \27FC */
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenitore{
+  background-color: rgba(0,0,0,0.5);
+  width: 800px;
+  margin: auto;
+  padding: 80px 50px;
+  margin-top: 30px;
+}
+
+section > .batteria, .contenitore{
+  border-radius: 5px;
+}
+
+header{
+  text-align: center;
+  color: #1CD60A;
+}
+
+#logo{
+  width: 150px;
+}
+
+.titolo{
+  font-size: 20px;
+}
+
+nav{
+  background-color: #1CD60A;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 6px;
+  block-size: 40px;
+}
+
+section{
+  padding-top: 20px;
+}
+
+.via:before{
+  content: "\27FC";
+}
+
+.via, .carica{
+  font-size: 12px;
+}
+
+.batteria.orange, .batteria.green, .batteria.red{
+  block-size: 20px;
+}
+
+.batteria.orange{
+  background-color: #FEAE2C;
+  width: 300px;
+}
+
+.batteria.green{
+  background-color: #1BC437;
+  width: 500px;
+}
+
+.batteria.red{
+  background-color: #E1543E;
+  width: 150px;
+}
